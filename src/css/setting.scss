@@ -1,0 +1,5 @@
+$base: 14 !global;
+
+@function px-to-rem($val) {
+    @return (($val / $base))+rem;
+}

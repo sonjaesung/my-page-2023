@@ -1,0 +1,74 @@
+@use "sass:map";
+@import "setting";
+
+html,
+body {
+    width: 100%;
+    min-height: 100%;
+    background-color: #fff;
+    font-size: px-to-rem(14);
+}
+
+html {
+    overflow-y: auto;
+    display: block;
+}
+
+body,
+th,
+td,
+input,
+select,
+textarea,
+h2,
+h3,
+h4,
+h5,
+address {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: normal;
+    color: #666;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+form,
+fieldset,
+input,
+textarea,
+p,
+blockquote,
+th,
+td,
+legend {
+    margin: 0;
+    padding: 0;
+}
+
+.body_wrap {
+    width: 100%;
+    min-width: px-to-rem(1220);
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+
+@import "header", "home";
