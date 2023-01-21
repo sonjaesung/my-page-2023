@@ -4,6 +4,7 @@ import routes from './routes';
 import { observer } from 'mobx-react';
 import TitleHeader from './components/common/TitleHeader';
 import './css/style.scss';
+import QuickBottom from './components/common/QuickBottom';
 
 const App = observer(() => {
   return (
@@ -14,6 +15,7 @@ const App = observer(() => {
           <Route key={idx} path={route.path} element={route.element} exact={true} />
         ))}
       </Routes>
+      <QuickBottom />
     </div>
   );
 });
