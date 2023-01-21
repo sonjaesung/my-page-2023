@@ -1,0 +1,21 @@
+.quickBtm {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #342f2f;
+    font-size: 0;
+    line-height: 0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 8;
+
+    .inConts {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+    }
+}

@@ -18,16 +18,116 @@
         width: 100%;
         overflow: hidden;
         position: relative;
-        height: px-to-rem(812);
+        height: 100%;
+
+        .rsis-container {
+            div {
+                width: 100% !important;
+                height: 100% !important;
+                background-size: px-to-rem(512) !important;
+                background-repeat: no-repeat;
+                background-position: center center;
+            }
+        }
     }
 
-    .rsis-container {
-        div {
-            width: 100% !important;
-            height: 100% !important;
-            background-size: px-to-rem(512) !important;
-            background-repeat: no-repeat;
-            background-position: center center;
+    .mConts {
+        width: 100%;
+        font-size: 0;
+        line-height: 0;
+        position: relative;
+
+        &.mMenu {
+            padding: px-to-rem(100) 0 px-to-rem(170);
+            background: #f3f3f3;
+
+            .inConts {
+                margin: 0 auto;
+                position: relative;
+                width: px-to-rem(1346);
+
+                .mTitle {
+                    line-height: 1;
+                    text-align: center;
+                    letter-spacing: -0.03rem;
+                    position: relative;
+                    padding: px-to-rem(60) 0;
+                    margin-bottom: px-to-rem(15);
+                    font-size: px-to-rem(42);
+                    color: #000000;
+                    font-weight: bolder;
+
+                    dd {
+                        padding-top: px-to-rem(15);
+                        font-size: px-to-rem(18);
+                        color: #636363;
+                    }
+                }
+
+                .wrapSlider {
+
+                    .slick-prev:before,
+                    .slick-next:before {
+                        font-size: px-to-rem(50);
+                        color: black;
+                    }
+
+                    .slick-prev {
+                        left: -65px;
+                    }
+
+                    .sliderImgArea {
+                        position: relative;
+                        height: px-to-rem(420);
+
+                        .sliderBg {
+                            width: 90%;
+                            position: absolute;
+                            top: 0;
+                            left: 5%;
+                            height: px-to-rem(420);
+
+                            &.superPeople {
+                                background-color: #42c947;
+                            }
+
+                            &.checkStudent {
+                                background-color: #42c99a;
+                            }
+
+                            &.myPage {
+                                background-color: #c0c942;
+                            }
+
+                            &.weather {
+                                background-color: #c96f42;
+                            }
+
+                            &.english {
+                                background-color: #525050;
+                            }
+
+                            &.lotto {
+                                background-color: #4783b5;
+                            }
+
+                            .sliderName {
+                                font-size: px-to-rem(32);
+                                line-height: 1;
+                                color: #ffffff;
+                                text-align: center;
+                                margin-top: px-to-rem(36);
+                                margin-bottom: px-to-rem(36);
+                            }
+
+                            img {
+                                width: 100%;
+                                height: px-to-rem(291);
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

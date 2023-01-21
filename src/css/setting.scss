@@ -1,5 +1,7 @@
-$base: 14 !global;
+@use "sass:math";
+
+$base: 14;
 
 @function px-to-rem($val) {
-    @return (($val / $base))+rem;
+    @return math.div($val , $base)+rem;
 }
