@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment } from 'react';
 import { observer } from 'mobx-react';
 import HomeMain from '../components/home/home';
 import { useLocation } from 'react-router-dom';

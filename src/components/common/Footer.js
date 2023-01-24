@@ -18,7 +18,7 @@ const Footer = observer(() => {
             <div className='inConts'>
                 <div className='tac'>
                     {images.map((item, idx) => {
-                        return <div className='imgArea'><img src={item.url} /></div>
+                        return <div className='imgArea' key={idx}><img src={item.url} /></div>
                     })}
                 </div>
                 <div className='text'>

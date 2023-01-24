@@ -1,12 +1,12 @@
-import React, { Fragment, useEffect, useState } from 'react';
+import React, { Fragment } from 'react';
 import { observer } from 'mobx-react';
-import About from '../components/developer/about';
+import Basic from '../components/developer/basic';
 import { useLocation } from 'react-router-dom';
 
 const Developer = observer(() => {
     const location = useLocation();
 
-    return <Fragment> {location.pathname === '/developer/basic' && <About />}</Fragment>;
+    return <Fragment> {location.pathname === '/developer/basic' && <Basic />}</Fragment>;
 });
 
 export default Developer;
