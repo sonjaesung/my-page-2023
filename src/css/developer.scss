@@ -191,7 +191,7 @@
                 height: auto;
             }
 
-            .basicInfoArea1 {
+            .schoolInfoArea1 {
                 position: absolute;
                 top: 10%;
                 right: 35%;
@@ -215,7 +215,7 @@
                 }
             }
 
-            .basicInfoArea2 {
+            .schoolInfoArea2 {
                 position: absolute;
                 top: 45%;
                 left: 20%;
@@ -237,6 +237,112 @@
                         margin-bottom: px-to-rem(10);
                     }
                 }
+            }
+        }
+    }
+}
+
+.skill {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+
+    .sVisual {
+        width: 100%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        font-size: 0;
+        line-height: 0;
+        overflow: hidden;
+        position: relative;
+        background-image: url('/img/basic-bg.png');
+
+        .inConts {
+            width: px-to-rem(1200);
+            margin: 0 auto;
+            position: relative;
+            height: px-to-rem(290);
+            padding-bottom: px-to-rem(56);
+            display: table;
+            box-sizing: border-box;
+
+            h2 {
+                text-align: center;
+                display: table-cell;
+                vertical-align: middle;
+            }
+
+            h2>* {
+                transition: all 1s ease-out;
+                transform-origin: 50% 50%;
+                opacity: 1;
+                font-weight: 500;
+                font-size: px-to-rem(40);
+                line-height: 1;
+                color: #fff;
+                display: inline-block;
+                vertical-align: top;
+                position: relative;
+            }
+        }
+    }
+
+    .contents {
+        width: 100%;
+        padding-bottom: 0px;
+        overflow: hidden;
+        opacity: 1;
+        top: 0px;
+        padding: 0;
+        transition-delay: .2s;
+        transition: all .7s ease-out;
+        transform-origin: 50% 50%;
+        min-height: px-to-rem(460);
+        margin: 0 auto;
+        position: relative;
+        box-sizing: border-box;
+
+        .fullBox {
+            text-align: center !important;
+            position: relative;
+            padding-left: px-to-rem(200);
+            padding-right: px-to-rem(200);
+
+            img {
+                width: 100%;
+                height: auto;
+            }
+
+            .skillInfoArea {
+                display: flex;
+                width: 100%;
+                justify-content: space-around;
+                margin-top: px-to-rem(100);
+
+                .title {
+                    color: rgb(0, 0, 0);
+                    font-size: px-to-rem(40);
+                    font-weight: 600;
+                    margin-bottom: px-to-rem(30);
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+
+                img {
+                    width: px-to-rem(300);
+                    height: px-to-rem(300);
+                }
+            }
+
+            .hrLine {
+                margin-top: px-to-rem(90);
+            }
+
+            &:last-child {
+                margin-bottom: px-to-rem(90);
             }
         }
     }

@@ -18,7 +18,7 @@ const School = observer(() => {
         <div className='contents'>
             <div className='fullBox'>
                 <img src={bgImag[0].url} alt={bgImag[0].url} />
-                <div className='basicInfoArea1'>
+                <div className='schoolInfoArea1'>
                     <div className='title'>
                         한국 IT 직업 전문학교 졸업
                     </div>
@@ -36,7 +36,7 @@ const School = observer(() => {
             </div>
             <div className='fullBox'>
                 <img src={bgImag[1].url} alt={bgImag[1].url} />
-                <div className='basicInfoArea2'>
+                <div className='schoolInfoArea2'>
                     <div className='title'>
                         방산 고등학교 졸업
                     </div>
