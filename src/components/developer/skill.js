@@ -33,7 +33,7 @@ const Skill = observer(() => {
             name: 'Nodejs'
         },
         {
-            url: "img/MySql-logo.png",
+            url: "img/MySQL-logo.png",
             name: 'MySql'
         },
     ];

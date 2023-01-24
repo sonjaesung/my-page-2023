@@ -12,7 +12,7 @@ const MainBanner = observer(() => {
         { url: "img/Redux-logo.png" },
         { url: "img/Mobex-logo.png" },
         { url: "img/Nodejs-logo.png" },
-        { url: "img/MySql-logo.png" },
+        { url: "img/MySQL-logo.png" },
     ];
 
     return (
