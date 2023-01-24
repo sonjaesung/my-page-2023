@@ -14,15 +14,15 @@ export const navigation = [
   {
     title: '경력 기술서',
     desc: '경력 기술서',
-    url: '/history',
-    matchUrl: ['/history'],
-    menu: 'History',
+    url: '/career',
+    matchUrl: ['/career'],
+    menu: 'Career',
     subnav: [
-      { url: '/history/wonder-people', name: '원더피플', desc: '원더피플' },
-      { url: '/history/deep-noid', name: '딥노이드', desc: '딥노이드' },
-      { url: '/history/m-circle', name: '엠서클', desc: '엠서클' },
-      { url: '/history/jober', name: '자버', desc: '자버' },
-      { url: '/history/fni', name: '에프앤아이', desc: '에프앤아이' },
+      { url: '/career/wonder-people', name: '원더피플', desc: '원더피플' },
+      { url: '/career/deep-noid', name: '딥노이드', desc: '딥노이드' },
+      { url: '/career/m-circle', name: '엠서클', desc: '엠서클' },
+      { url: '/career/jober', name: '자버', desc: '자버' },
+      { url: '/career/fni', name: '에프앤아이', desc: '에프앤아이' },
     ],
   },
   {

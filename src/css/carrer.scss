@@ -1,0 +1,81 @@
+.carrerDetail {
+    text-align: left;
+    background-color: #fff;
+
+    .inConts {
+        padding: px-to-rem(140) 0;
+        width: px-to-rem(1200);
+        margin: 0 auto;
+        position: relative;
+
+        .detailView {
+            width: px-to-rem(700);
+            margin: 0 auto;
+            text-align: center;
+
+            .detailName {
+                .maintitle {
+                    font-size: px-to-rem(48);
+                    font-weight: 600;
+                    color: #414042;
+                }
+
+                .subTitle {
+                    font-size: px-to-rem(19);
+                    color: #414042;
+                    margin-top: px-to-rem(10);
+                }
+            }
+
+            .detailImg {
+                height: px-to-rem(350);
+                width: px-to-rem(600);
+                overflow: hidden;
+                margin: px-to-rem(40) auto px-to-rem(60);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+
+            .detailText {
+                color: #414042;
+                line-height: px-to-rem(30);
+                font-size: px-to-rem(18);
+                margin-bottom: px-to-rem(70);
+            }
+        }
+    }
+}
+
+.detailWork {
+    padding-bottom: px-to-rem(36);
+    text-align: left;
+    background-color: #fafafa;
+
+    .inConts {
+        padding: px-to-rem(140) 0;
+        width: px-to-rem(1200);
+        margin: 0 auto;
+        position: relative;
+        font-size: px-to-rem(18);
+        color: #414042;
+        line-height: px-to-rem(25);
+        font-weight: 400;
+
+        div {
+            margin-bottom: px-to-rem(10);
+        }
+
+        .careerList {
+            margin-top: px-to-rem(50);
+            color: #000000;
+            font-weight: 600;
+        }
+
+        .careerLi {
+            margin-left: px-to-rem(20);
+        }
+    }
+}

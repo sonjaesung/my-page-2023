@@ -1,4 +1,4 @@
-import { Home, Developer } from '../pages';
+import { Home, Developer, Career } from '../pages';
 
 const routes = [
     {
@@ -8,6 +8,10 @@ const routes = [
     {
         path: '/developer/:tab',
         element: <Developer />,
+    },
+    {
+        path: '/career/:tab',
+        element: <Career />,
     },
 ];
 export default routes;
