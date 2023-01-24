@@ -1,9 +1,15 @@
 import React from 'react';
 import { observer } from 'mobx-react';
-import { Fragment } from 'react';
 
 const WonderPeople = observer(() => {
-    return <Fragment>
+    return <div className='landscape'>
+        <div className='sVisual'>
+            <div className='inConts'>
+                <h2>
+                    <span>경력 기술서</span>
+                </h2>
+            </div>
+        </div>
         <div className='carrerDetail'>
             <div className='inConts'>
                 <div className='detailView'>
@@ -15,7 +21,7 @@ const WonderPeople = observer(() => {
                         <img src='img/supeople01.png' alt='img/supeople01.png' />
                     </div>
                     <div className='detailText'>
-                        <div>회사 소개 : FPS 배틀로얄 게임</div>
+                        <div>회사 소개 : FPS 배틀로얄 게임 '슈퍼피플'</div>
                         <div>부서명 : 오스카마이크</div>
                         <div>직원수 : 200명</div>
                         <div>재직기간 : 2021.06 ~ 2023.01</div>
@@ -28,8 +34,8 @@ const WonderPeople = observer(() => {
         </div>
         <div className='detailWork'>
             <div className='inConts'>
-                <div>팀 구성 및 역할: 프론트엔드 1명 중 본인, 추후 프론트엔드 2명 인원 보충</div>
-                <div>개발 환경 및 적용 기술: Coherent, React, React hook, mobex, Javascript, HTML, SCSS, Git</div>
+                <div>팀 구성 및 역할 : 프론트엔드 1명 중 본인, 추후 프론트엔드 2명 인원 보충</div>
+                <div>개발 환경 및 적용 기술 : Coherent, React, React hook, mobex, Javascript, HTML, SCSS, Git</div>
                 <div className='careerList'>개발 사항</div>
                 <div className='careerLi'>- React 기반의 페이지이며, React hook 을 이용하여 페이지 작성</div>
                 <div className='careerLi'>- 상태 관리는 mobex를 이용하였고, 코드 형상관리는 Github를 이용</div>
@@ -39,7 +45,7 @@ const WonderPeople = observer(() => {
                 <div className='careerLi'>- 정적인 정보등에는 axios 를 이용한 aws 에서 파일을 불러오는 기능 이용</div>
             </div>
         </div>
-    </Fragment>
+    </div>
         ;
 });
 
