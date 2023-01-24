@@ -1,0 +1,62 @@
+.portfolioDetail {
+    text-align: left;
+    background-color: #fff;
+
+    .inConts {
+        padding: px-to-rem(140) 0;
+        width: px-to-rem(1640);
+        margin: 0 auto;
+        position: relative;
+
+        .detailView {
+            width: 100%;
+            margin: 0 auto;
+            text-align: center;
+
+            .detailName {
+                .maintitle {
+                    font-size: px-to-rem(48);
+                    font-weight: 600;
+                    color: #414042;
+                }
+
+                .subTitle {
+                    font-size: px-to-rem(19);
+                    color: #414042;
+                    margin-top: px-to-rem(10);
+                }
+            }
+
+            .detailImg {
+                height: px-to-rem(350);
+                width: 100%;
+                overflow: hidden;
+                margin: px-to-rem(40) auto px-to-rem(60);
+                display: flex;
+                justify-content: space-around;
+
+                img {
+                    width: 30%;
+                    height: auto;
+                }
+
+                &.img4 {
+                    img {
+                        width: 23%;
+                        height: auto;
+                    }
+                }
+            }
+
+            .detailText {
+                color: #414042;
+                line-height: px-to-rem(30);
+                font-size: px-to-rem(18);
+                margin-bottom: px-to-rem(70);
+                white-space: pre;
+                text-align: left;
+                margin-left: px-to-rem(100);
+            }
+        }
+    }
+}

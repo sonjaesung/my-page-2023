@@ -32,9 +32,10 @@ export const navigation = [
     matchUrl: ['/portfolio'],
     menu: 'Portfolio',
     subnav: [
-      { url: '/Portfolio/my-page', name: '마이 페이지', desc: '마이 페이지' },
-      { url: '/Portfolio/student-check', name: '출석 체크', desc: '출석 체크' },
-      { url: '/Portfolio/weather-react', name: '날씨/영어/로또', desc: '날씨/영어/로또' },
+      { url: '/portfolio/my-page', name: '마이 페이지 2023', desc: '마이 페이지 2023' },
+      { url: '/portfolio/student-check', name: '출석 체크', desc: '출석 체크' },
+      { url: '/portfolio/weather-react', name: '날씨/영어/로또', desc: '날씨/영어/로또' },
+      { url: '/portfolio/old-my-page', name: '(구) 마이 페이지', desc: '(구) 마이 페이지' },
     ],
   },
   {

@@ -1,8 +1,6 @@
 import React, { Fragment } from 'react';
 import { observer } from 'mobx-react';
 import { useLocation } from 'react-router-dom';
-import School from '../components/developer/school';
-import Skill from '../components/developer/skill';
 import WonderPeople from '../components/career/wonderPeople';
 import DeepNoid from '../components/career/deepNoid';
 import Mcircle from '../components/career/mCircle';

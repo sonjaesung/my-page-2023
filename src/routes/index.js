@@ -1,4 +1,4 @@
-import { Home, Developer, Career } from '../pages';
+import { Home, Developer, Career, Portfolio } from '../pages';
 
 const routes = [
     {
@@ -12,6 +12,10 @@ const routes = [
     {
         path: '/career/:tab',
         element: <Career />,
+    },
+    {
+        path: '/portfolio/:tab',
+        element: <Portfolio />,
     },
 ];
 export default routes;
